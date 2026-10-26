@@ -1,0 +1,55 @@
+{
+  "NUM": [
+    "BMI",
+    "MentHlth",
+    "PhysHlth",
+    "GenHlth",
+    "Age",
+    "Education",
+    "Income"
+  ],
+  "BIN": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "AnyHealthcare",
+    "NoDocbcCost",
+    "DiffWalk",
+    "Sex"
+  ],
+  "feature_order": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "AnyHealthcare",
+    "NoDocbcCost",
+    "DiffWalk",
+    "Sex",
+    "BMI",
+    "MentHlth",
+    "PhysHlth",
+    "GenHlth",
+    "Age",
+    "Education",
+    "Income"
+  ],
+  "bmi_clip": [
+    17.0,
+    56.0
+  ],
+  "seed": 42
+}
