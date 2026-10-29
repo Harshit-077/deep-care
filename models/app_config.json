@@ -1,0 +1,145 @@
+{
+  "feature_order": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "AnyHealthcare",
+    "NoDocbcCost",
+    "DiffWalk",
+    "Sex",
+    "BMI",
+    "MentHlth",
+    "PhysHlth",
+    "GenHlth",
+    "Age",
+    "Education",
+    "Income"
+  ],
+  "NUM": [
+    "BMI",
+    "MentHlth",
+    "PhysHlth",
+    "GenHlth",
+    "Age",
+    "Education",
+    "Income"
+  ],
+  "BIN": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "AnyHealthcare",
+    "NoDocbcCost",
+    "DiffWalk",
+    "Sex"
+  ],
+  "bmi_clip": [
+    17.0,
+    56.0
+  ],
+  "feature_ranges": {
+    "HighBP": [
+      0.0,
+      1.0
+    ],
+    "HighChol": [
+      0.0,
+      1.0
+    ],
+    "CholCheck": [
+      0.0,
+      1.0
+    ],
+    "Smoker": [
+      0.0,
+      1.0
+    ],
+    "Stroke": [
+      0.0,
+      1.0
+    ],
+    "HeartDiseaseorAttack": [
+      0.0,
+      1.0
+    ],
+    "PhysActivity": [
+      0.0,
+      1.0
+    ],
+    "Fruits": [
+      0.0,
+      1.0
+    ],
+    "Veggies": [
+      0.0,
+      1.0
+    ],
+    "HvyAlcoholConsump": [
+      0.0,
+      1.0
+    ],
+    "AnyHealthcare": [
+      0.0,
+      1.0
+    ],
+    "NoDocbcCost": [
+      0.0,
+      1.0
+    ],
+    "DiffWalk": [
+      0.0,
+      1.0
+    ],
+    "Sex": [
+      0.0,
+      1.0
+    ],
+    "BMI": [
+      12.0,
+      98.0
+    ],
+    "MentHlth": [
+      0.0,
+      30.0
+    ],
+    "PhysHlth": [
+      0.0,
+      30.0
+    ],
+    "GenHlth": [
+      1.0,
+      5.0
+    ],
+    "Age": [
+      1.0,
+      13.0
+    ],
+    "Education": [
+      1.0,
+      6.0
+    ],
+    "Income": [
+      1.0,
+      8.0
+    ]
+  },
+  "threshold_recall80_raw": 0.5070404410362244,
+  "threshold_recall80_calibrated": 0.1496313452840251,
+  "dataset_prevalence": 0.152946815994422,
+  "calibration": "platt (fitted on validation set)",
+  "shap_base_value": 0.16269318572891453
+}
